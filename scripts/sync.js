@@ -2,7 +2,7 @@ const glob = require("glob");
 const fs = require("fs");
 const fetch = require("node-fetch");
 // your Embedbase api key
-const apiKey = "b7278d6f-0be7-420b-9401-f6f499c380c2"//process.env.EMBEDBASE_API_KEY;
+const apiKey = process.env.EMBEDBASE_API_KEY;
 
 const sync = async () => {
  // 1. read all files under pages/* with .mdx extension
