@@ -2,16 +2,16 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>Simply</span>,
+  logo: <span>Base de conocimiento Simply</span>,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://www.banmedica.cl/',
   },
   chat: {
-    link: 'https://discord.com',
+    link: 'https://www.banmedica.cl/contacto/',
   },
   docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
   footer: {
-    text: 'Simply Knowledgebase',
+    text: 'Base de conocimiento Simply',
   },
 }
 
