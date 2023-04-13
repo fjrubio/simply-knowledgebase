@@ -2,7 +2,7 @@
 import { OpenAIStream, OpenAIStreamPayload } from "../../utils/OpenAIStream";
 export const config = {
   // We are using Vercel edge function for this endpoint
-  runtime: "edge",
+  runtime: "experimental-edge",
 };
 interface RequestPayload {
  prompt: string;
