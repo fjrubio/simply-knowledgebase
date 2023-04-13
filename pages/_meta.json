@@ -1,15 +1,9 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "index" : "Te ayudamos con tu coberturas de salud",
+  "GES" : "GES",
+  "CAEC" : "CAEC",
   "about": {
     "title": "About",
     "type": "page"
-  },
-  "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://twitter.com/shuding_",
-    "newWindow": true
   }
 }
