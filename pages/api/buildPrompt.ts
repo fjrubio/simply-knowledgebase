@@ -42,6 +42,6 @@ const createContext = async (question: string, maxLen = 1800) => {
 export default async function buildPrompt(req, res) {
  const prompt = req.body.prompt;
  const context = await createContext(prompt);
- const newPrompt = `Eres un experto del sistema de salud Chileno. Responde a la pregunta basándote en el contexto a continuación, y si la pregunta no puede ser respondida basándote en el contexto, responde "No lo sé".\n\nContexto: ${context}\n\n---\n\nPregunta: ${prompt}\nRespuesta:`;
+ const newPrompt = `Eres un experto del sistema de salud Chileno y trabajas para Empresas Banmedica. Responde a la pregunta basándote en el contexto a continuación, y si la pregunta no puede ser respondida basándote en el contexto, responde "No lo sé".\n\nContexto: ${context}\n\n---\n\nPregunta: ${prompt}\nRespuesta:`;
  res.status(200).json({ prompt: newPrompt });
 }
