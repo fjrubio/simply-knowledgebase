@@ -171,7 +171,7 @@ const config: DocsThemeConfig = {
 	},
 	docsRepositoryBase: 'https://github.com/fjrubio/simply-knowledgebase',
 	footer: {
-		text: 'Hecho con &#10084; en Chile',
+		text: 'Hecho en Chile',
 	},
 	// add this to use our Search component
 	search: {
