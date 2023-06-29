@@ -137,20 +137,20 @@ const Search = () => {
 	return (
 		<>
 			<input
-				placeholder="Ask a question"
+				placeholder="Pregunta aquí"
 				onClick={() => setOpen(true)}
 				type="text"
 			/>
 			<Modal open={open} onClose={() => setOpen(false)}>
 				<form onSubmit={answerQuestion} className="nx-flex nx-gap-3">
 					<input
-						placeholder="Ask a question"
+						placeholder="Pregunta aquí"
 						type="text"
 						value={question}
 						onChange={(e) => setQuestion(e.target.value)}
 					/>
 					<button type="submit">
-						Ask
+						Enviar
 					</button>
 				</form>
 				<p>
@@ -162,16 +162,16 @@ const Search = () => {
 }
 
 const config: DocsThemeConfig = {
-	logo: <span>Base de conocimiento</span>,
+	logo: <span>Ayuda Medy</span>,
 	project: {
-		link: 'https://www.banmedica.cl/',
+		link: 'https://www.medy.cl/',
 	},
 	chat: {
 		link: 'https://www.banmedica.cl/contacto/',
 	},
-	docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+	docsRepositoryBase: 'https://github.com/fjrubio/simply-knowledgebase',
 	footer: {
-		text: 'Nextra Docs Template',
+		text: 'Hecho con &#10084; en Chile',
 	},
 	// add this to use our Search component
 	search: {
