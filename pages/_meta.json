@@ -1,9 +1,5 @@
 {
-  "index" : "Te ayudamos con tu coberturas de salud",
+  "index" : "Ayuda Medy",
   "GES" : "GES",
-  "CAEC" : "CAEC",
-  "about": {
-    "title": "About",
-    "type": "page"
-  }
+  "CAEC" : "CAEC"
 }
