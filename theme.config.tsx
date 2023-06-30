@@ -3,7 +3,7 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
   logo: <span>Medy</span>,
-  primaryHue: {light: 245},
+  primaryHue: {dark: 245, light: 245},
   darkMode: false,
   footer: {
     text: 'Hecho en Chile',
